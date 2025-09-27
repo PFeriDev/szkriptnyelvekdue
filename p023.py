@@ -24,7 +24,7 @@ def main():
     # Billentyűfigyelő események
     turtle.listen()
     turtle.onkey(lambda: haromszog(150), "h")
-    turtle.onkey(turtle.bye, "u")
+    turtle.onkey(turtle.bye, "q")
 
     ablak.mainloop()
 
